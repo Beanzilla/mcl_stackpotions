@@ -1,4 +1,4 @@
-# mcl_stackpotions v1.2
+# mcl_stackpotions v1.2.1
 Provides a stackable potion (just place a normal potion in the crafting table to get a stacked version)
 
 ## How it works
