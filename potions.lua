@@ -442,6 +442,7 @@ local thick_def = {
 }
 
 --[[
+-- Already stackable, so don't need our copy
 local dragon_breath_def = {
 	name = "dragon_breath",
 	description = S("Dragon's Breath"),
@@ -599,7 +600,7 @@ local fire_resistance_def = {
 
 
 
-local defs = { awkward_def, mundane_def, thick_def, dragon_breath_def,
+local defs = { awkward_def, mundane_def, thick_def,
 	healing_def, harming_def, night_vision_def, swiftness_def,
 	slowness_def, leaping_def, poison_def, regeneration_def,
 	invisibility_def, water_breathing_def, fire_resistance_def}
