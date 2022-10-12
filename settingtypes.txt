@@ -1,0 +1,3 @@
+
+# Governs how many potions a stackable potion can stack to
+mcl_stackpotions.stacksize (Max Stack Size) int 16 2 64
