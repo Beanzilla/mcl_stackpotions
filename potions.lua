@@ -401,7 +401,6 @@ end
 -- ██████╔╝███████╗██║░░░░░██║██║░╚███║██║░░░██║░░░██║╚█████╔╝██║░╚███║██████╔╝
 -- ╚═════╝░╚══════╝╚═╝░░░░░╚═╝╚═╝░░╚══╝╚═╝░░░╚═╝░░░╚═╝░╚════╝░╚═╝░░╚══╝╚═════╝░
 
-
 local awkward_def = {
 	name = "awkward",
 	description_potion = S("Awkward Potion"),
@@ -442,6 +441,7 @@ local thick_def = {
 	on_use = minetest.item_eat(0, "mcl_potions:glass_bottle"),
 }
 
+--[[
 local dragon_breath_def = {
 	name = "dragon_breath",
 	description = S("Dragon's Breath"),
@@ -455,6 +455,7 @@ local dragon_breath_def = {
 	on_use = nil,
 	stack_max = 64,
 }
+]]--
 
 local healing_def = {
 	name = "healing",
